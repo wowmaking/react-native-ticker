@@ -40,9 +40,11 @@ export default class ReactNativeTicker extends PureComponent {
                 easing: Easing.linear,
             }
         ).start(() => {
-            this.state.xAnim.setValue(0);
-            this.ref.scrollTo({ x: this.x + this.state.layoutWidth, animated: false, });
-            this._startAnim();
+            if (this.ref) {
+                this.state.xAnim.setValue(0);
+                this.ref.scrollTo({ x: this.x + this.state.layoutWidth, animated: false, });
+                this._startAnim();
+            }
         });
     }
 
@@ -82,7 +84,7 @@ export default class ReactNativeTicker extends PureComponent {
 
     handleLayout(e) {
         this.ref.scrollTo({ x: 1, });
-        
+
         this.setState({
             layoutWidth: e.nativeEvent.layout.width / 2,
         });
