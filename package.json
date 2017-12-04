@@ -1,19 +1,25 @@
 {
-  "name": "react-native-ticker",
+  "name": "@wowmaking/react-native-ticker",
   "version": "0.1.1",
-  "description": "",
+  "description": "Animated infinite ticker for ReactNative Apps",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "keywords": [
+    "react-native",
+    "animation",
+    "ticker"
+  ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kurtsergey/react-native-ticker.git"
+    "url": "https://github.com/wowmaking/react-native-ticker.git"
   },
-  "author": "",
-  "license": "ISC",
+  "author": {
+    "name": "kurtsergey",
+    "email": "kurtsergey@gmail.com",
+    "url": "https://github.com/kurtsergey"
+  },
+  "license": "MIT",
   "bugs": {
-    "url": "https://github.com/kurtsergey/react-native-ticker/issues"
+    "url": "https://github.com/wowmaking/react-native-ticker/issues"
   },
-  "homepage": "https://github.com/kurtsergey/react-native-ticker#readme"
+  "homepage": "https://github.com/wowmaking/react-native-ticker#README"
 }
