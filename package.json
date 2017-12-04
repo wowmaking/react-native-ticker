@@ -1,6 +1,6 @@
 {
   "name": "@wowmaking/react-native-ticker",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Animated infinite ticker for ReactNative Apps",
   "main": "index.js",
   "keywords": [
